@@ -1,65 +1,80 @@
-Python | React | Node.js | AI | Smart India Hackathon 2025                                                                                                                                                                                                                                         
-Schedulon – AI Based Timetable Generation System
+# 📅 Schedulon — AI Resource Allocation & Timetable Engine
 
-AI-powered automated timetable generation platform developed for Smart India Hackathon 2025 (Problem Statement 25091).
-The system generates optimized, conflict-free academic schedules for multidisciplinary programs aligned with NEP 2020, reducing manual scheduling effort and improving resource allocation.
-Problem Statement
+> Built for **Smart India Hackathon 2025** (Problem Statement PS-25091)  
+> Deployed on **Kubernetes** with zero-downtime rollouts 🚀
 
-Educational institutions face major challenges in creating conflict-free academic timetables due to multiple departments, flexible course selections, and faculty availability. Manual timetable creation is time-consuming and prone to errors.
+---
 
-This project aims to build an AI-driven scheduling system that automatically generates optimized academic timetables while avoiding clashes and balancing resources efficiently.
+## 🧠 What is this?
 
-Features
+Schedulon is an AI/ML-powered conflict-resolution scheduling engine that **automatically generates academic timetables** for FYUP and ITEP programs. It eliminates manual scheduling errors, handles complex constraints, and deploys at scale using Docker & Kubernetes.
 
-Automated timetable generation
+---
 
-Conflict-free scheduling for courses and faculty
+## ✨ Features
 
-Smart resource allocation for classrooms and departments
+- ✅ Conflict-free timetable generation using AI/ML algorithms
+- ✅ Supports FYUP and ITEP academic program structures (NEP aligned)
+- ✅ Real-time schedule updates with zero manual intervention
+- ✅ REST API backend for seamless frontend integration
+- ✅ Dockerized & deployed on Kubernetes with zero-downtime rollouts
+- ✅ Intuitive React-based UI for admin and faculty
 
-Support for multidisciplinary course structures under NEP 2020
+---
 
-Reduced manual workload for administrators
+## 🛠️ Tech Stack
 
-Scalable system for large institutions
+| Layer | Technology |
+|---|---|
+| Frontend | React, Node.js |
+| Backend | Python |
+| AI/ML | Custom conflict-resolution algorithms |
+| DevOps | Docker, Kubernetes |
+| Deployment | Kubernetes cluster with zero-downtime rollouts |
 
-Tech Stack
+---
 
-Frontend: React.js
-Backend: Node.js / Django
-Programming Language: Python
-AI / Optimization: Machine Learning Algorithms
-Database: MongoDB / MySQL
-Deployment: Docker, Kubernetes, Cloud Infrastructure
+## 🚀 Getting Started
 
-Project Architecture
+### Prerequisites
+- Node.js v18+
+- Python 3.9+
+- Docker & Kubernetes (kubectl)
 
-Data collection of courses, faculty, and classrooms
+### Run locally
 
-AI-based scheduling algorithm processes constraints
+```bash
+# Clone the repo
+git clone https://github.com/sanskritika2409/AI_Timetable.git
+cd AI_Timetable
 
-System generates optimized timetable
+# Install frontend dependencies
+npm install
 
-Admin dashboard for timetable visualization and management
+# Start frontend
+npm start
 
-Use Cases
+# In a new terminal — start backend
+pip install -r requirements.txt
+python app.py
+```
 
-Universities implementing NEP 2020 flexible curriculum
+### Run with Docker
 
-Colleges managing multiple departments and courses
+```bash
+docker build -t schedulon .
+docker run -p 3000:3000 schedulon
+```
 
-Academic institutions needing automated scheduling systems
+---
 
-Future Improvements
+## 🏆 Hackathon Context
 
-Real-time timetable updates
+This project was built for **Smart India Hackathon 2025**, one of India's largest national-level hackathons. Problem Statement **PS-25091** required building an intelligent academic scheduling system compliant with the National Education Policy (NEP 2020).
 
-Student personalized schedules
+---
 
-Integration with university ERP systems
+## 👩‍💻 Author
 
-Mobile application support
-
-Team
-
-Developed as part of Smart India Hackathon 2025
+**Sanskritika Awasthi**  
+[LinkedIn](https://www.linkedin.com/in/sanskritika-awasthi-9400592a6) | [GitHub](https://github.com/sanskritika2409)
